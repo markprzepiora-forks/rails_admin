@@ -5,7 +5,6 @@ require 'nested_form'
 require 'rack-pjax'
 require 'rails'
 require 'rails_admin'
-require 'remotipart'
 require 'safe_yaml/load'
 
 module RailsAdmin
