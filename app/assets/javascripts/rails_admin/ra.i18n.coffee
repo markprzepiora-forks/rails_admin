@@ -1,5 +1,5 @@
-@RailsAdmin ||= {}
-@RailsAdmin.I18n = class Locale
+window.RailsAdmin ||= {}
+window.RailsAdmin.I18n = class Locale
   @init: (@locale, @translations)->
     moment.locale(@locale)
 
